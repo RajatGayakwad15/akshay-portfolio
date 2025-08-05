@@ -199,7 +199,7 @@ export function NotificationsForm() {
                 <FormDescription>
                   You can manage your mobile notifications in the{' '}
                   <Link
-                    to='/admin/settings'
+                    to='/'
                     className='underline decoration-dashed underline-offset-4 hover:decoration-solid'
                   >
                     mobile settings

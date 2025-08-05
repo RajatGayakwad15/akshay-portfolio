@@ -1,8 +1,5 @@
-import { Link } from '@tanstack/react-router'
 import sideImg from '@/assets/Akshayimages/ncairlogo2-removebg-preview.png'
-import { buttonVariants } from '@/components/ui/button'
 import Image from '@/components/image'
-import { Statistics } from './statistics'
 
 export const About = () => {
   return (
@@ -24,8 +21,9 @@ export const About = () => {
                   Experience
                 </span>
               </h2>
-              <p className='mt-2 text-muted-foreground text-lg italic'>
-                Research Assistant, IIT Bombay — <strong>November 2023 – Present</strong>
+              <p className='text-muted-foreground mt-2 text-lg italic'>
+                Research Assistant, IIT Bombay —{' '}
+                <strong>November 2023 – Present</strong>
               </p>
               <p className='text-muted-foreground mt-4 text-xl'>
                 Contributed to the development of sensor-driven embedded systems

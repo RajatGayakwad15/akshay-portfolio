@@ -1,18 +1,10 @@
 import { Link } from '@tanstack/react-router'
-import { MapPin } from 'lucide-react'
+
 import Img3 from '@/assets/Akshayimages/selfi.jpg'
 import { buttonVariants } from '@/components/ui/button'
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-  CardFooter,
-} from '@/components/ui/card'
-import { LightBulbIcon } from '@/components/icons'
+
 import Image from '@/components/image'
-import heroBg from '/src/assets/hero-bg.avif'
+
 
 export const Hero = () => {
   return (

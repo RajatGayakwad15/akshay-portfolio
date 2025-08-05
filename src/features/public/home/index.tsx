@@ -13,13 +13,7 @@ const Home = () => {
         <Hero />
       </section>
 
-      {/* <section id="brand-usp">
-        <BrandUsp />
-      </section>
-
-      <section id="products">
-        <Products />
-      </section> */}
+      
 
       <section id="project">
         <Services />
@@ -29,13 +23,7 @@ const Home = () => {
         <About />
       </section>
 
-      {/* <section id="testimonials">
-        <Testimonials />
-      </section>
-
-      <section id="cta">
-        <Cta />
-      </section> */}
+ 
 
       <section id="contact">
         <FAQ />
