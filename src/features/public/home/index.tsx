@@ -1,11 +1,10 @@
 import FAQ from '@/features/public/home/components/faq'
 import { About } from './components/about'
-import { BrandUsp } from './components/brand-usp'
-import { Cta } from './components/cta'
+
 import { Hero } from './components/hero'
-import { Products } from './components/products'
+
 import { Services } from './components/services'
-import { Testimonials } from './components/testimonials'
+
 
 const Home = () => {
   return (
