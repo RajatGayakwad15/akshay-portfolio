@@ -14,7 +14,7 @@ import {
   SelectValue,
 } from '@/components/ui/select'
 import { Separator } from '@/components/ui/separator'
-import { Header } from '@/components/layout/header'
+
 
 import { ProfileDropdown } from '@/components/profile-dropdown'
 import { Search } from '@/components/search'

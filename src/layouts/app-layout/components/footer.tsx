@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Phone, Mail, Linkedin } from 'lucide-react'
 
 export const Footer = () => {

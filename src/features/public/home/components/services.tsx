@@ -4,7 +4,7 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
-import { LightBulbIcon } from '@/components/icons'
+
 
 const projectList = [
   {
