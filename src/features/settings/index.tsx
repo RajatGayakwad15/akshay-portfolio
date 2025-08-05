@@ -7,8 +7,6 @@ import {
   IconUser,
 } from '@tabler/icons-react'
 import { Separator } from '@/components/ui/separator'
-import { Header } from '@/components/layout/header'
-import { Main } from '@/components/layout/main'
 import { ProfileDropdown } from '@/components/profile-dropdown'
 import { Search } from '@/components/search'
 import { ThemeSwitch } from '@/components/theme-switch'
@@ -18,15 +16,15 @@ export default function Settings() {
   return (
     <>
       {/* ===== Top Heading ===== */}
-      <Header>
+      <header>
         <Search />
         <div className='ml-auto flex items-center space-x-4'>
           <ThemeSwitch />
           <ProfileDropdown />
         </div>
-      </Header>
+      </header>
 
-      <Main fixed>
+      <main className='fixed'>
         <div className='space-y-0.5'>
           <h1 className='text-2xl font-bold tracking-tight md:text-3xl'>
             Settings
@@ -44,7 +42,7 @@ export default function Settings() {
             <Outlet />
           </div>
         </div>
-      </Main>
+      </main>
     </>
   )
 }

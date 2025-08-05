@@ -1,25 +1,8 @@
 import { Link } from '@tanstack/react-router'
-import {
-  BicepsFlexed,
-  CircleCheck,
-  CircleCheckBig,
-  ClockArrowUp,
-} from 'lucide-react'
-import { Badge } from '@/components/ui/badge'
-import { buttonVariants } from '@/components/ui/button'
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-  CardFooter,
-} from '@/components/ui/card'
+import { Card, CardHeader } from '@/components/ui/card'
 import { LightBulbIcon } from '@/components/icons'
 import Image from '@/components/image'
-import Img1 from '/src/assets/img-1.avif'
 import Img3 from '/src/assets/img-3.avif'
-import Img5 from '/src/assets/img-5.webp'
 
 export const HeroCards = () => {
   return (

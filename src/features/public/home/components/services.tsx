@@ -60,7 +60,7 @@ export const Services = () => {
           <Card key={title}>
             <CardHeader className='flex items-start gap-4 space-y-0'>
               <div className='bg-primary/20 mt-1 rounded-2xl p-2'>
-                <LightBulbIcon className='text-primary h-6 w-6' />
+                {/* <LightBulbIcon className='text-primary h-6 w-6' /> */}
               </div>
               <div>
                 <CardTitle className='text-lg'>{title}</CardTitle>

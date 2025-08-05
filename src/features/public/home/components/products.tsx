@@ -97,7 +97,7 @@ export const Products = () => {
       </div>
 
       <div className='pt-8 text-center'>
-        <Link to='/products' className={`px-8 ${buttonVariants()}`}>
+        <Link to='/' className={`px-8 ${buttonVariants()}`}>
           See All Products
         </Link>
       </div>
