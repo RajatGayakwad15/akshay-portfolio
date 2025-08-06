@@ -63,6 +63,7 @@
     "gh-pages": "^6.3.0",
     "input-otp": "^1.4.2",
     "js-cookie": "^3.0.5",
+    "keen-slider": "^6.8.6",
     "lucide-react": "^0.488.0",
     "next-themes": "^0.4.6",
     "react": "^19.1.0",
